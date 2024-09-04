@@ -49,7 +49,7 @@ gsap.from(
             trigger : ".project-cards" ,
             start : "top 80%" ,
             end : "top 30%" ,
-            markers : true ,
+         
             scrub : true
         }
     }
@@ -65,7 +65,7 @@ gsap.from(
             trigger : ".box-3" ,
             start : "top 80%" ,
             end : "top 30%" ,
-            markers : true ,
+         
             scrub : true
         }
     }
