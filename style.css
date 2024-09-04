@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+   
+    
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+hr{
+    width: 90vw;
+    margin: auto;
+    height: 2px;
+    background: #000;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding-left: 1rem;
+  
+
+}
+.nav-list{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    justify-content: end ;
+    align-items: center;
+    padding-right: 2rem;
+    width: 60%;
+
+}
+.nav-h3{
+    font-size: 2rem;
+    font-family: "karla";
+    font-weight: 500;
+}
+.list-elem{
+   color: #000;
+    cursor: pointer;
+}
+
+.list-elem.dark-elem:hover{
+    border-bottom:1.4px solid rgb(255, 255, 255) ;
+}
+.list-elem:hover{
+    border-bottom: 1.4px solid black ;
+}
+.box-1{
+
+    color: rgb(0, 0, 0);
+    display: flex;
+    height: 90vh;
+    
+   
+   
+
+}
+.info-box{
+    height: 100%;
+    width: 60%;
+   
+    display: flex;
+    padding-left: 4rem;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+
+}
+div.info-box h1{
+    opacity: 0;
+}
+ h1{
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: start;
+    font-weight: 600;
+
+}
+.info-para{
+
+    width: 100%;
+    height: fit-content;
+    align-self: start;
+    font-size: 1.5rem ;
+    font-family:"karla" , sans-serif;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+.main-img{
+    margin: 10% 10% 20%;
+    border-radius: 50%;
+
+}
+.connect-button{
+    display: flex;
+    gap : 1rem ;
+    margin-top: 1rem;
+}
+ button{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+div.connect-button button img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.box-2{
+    
+    height: fit-content;
+    padding-bottom: 2rem;
+    color: #000;
+ 
+
+}
+.box-2-heading{
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 12px;
+
+    
+}
+.box-2-h2{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.box-2-p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.7rem;
+}
+.project-cards{
+    display: flex;
+    width: 100vw;
+
+    gap: 20px;
+    flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  
+
+}
+.card{
+    background: #000;
+    backdrop-filter: blur(10px);
+    width: max(19rem , 30vw) ;
+    height: 47vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    
+
+}
+
+.project-img{
+    width: 100%;
+    height: 50%;
+    border-radius: 12px;
+    object-fit: contain;
+}
+.card-para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.485);
+}
+h3{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.card-para p{
+    padding-left: 24px;
+    width: 100%;
+    height: fit-content;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'karla', Times, serif;
+
+}
+div.card a{
+    
+   
+    align-self: self-end;
+    margin: auto;
+}
+div.card button{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    font-size: 1rem;
+
+}
+.box-3{
+    height: fit-content;
+    color: #000;
+
+    padding: 1rem;
+    margin-top: 3rem;
+
+}
+div.box-3 h1{
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+
+}
+.skill-logo-main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+ gap: 1rem;
+    justify-content: center;
+}
+.skill-logo{
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 1rem;
+}
+div.skill-logo img{
+    width: 75px;
+    height: 75px;
+
+}
+.box-4{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 29rem ;
+}
+label{
+    font-size: 2rem;
+    margin-top: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+input{
+    margin-top: 0.7rem;
+    width: 100%;
+    height: 2rem;
+    border-radius: 7px;
+    padding: 0px 8px 0px 8px;
+
+}
+form button{
+    width: 100%;
+    height: fit-content;
+    border-radius: 8px;
+    background: #000;
+    margin-top: 0.7rem;
+    color: #ffffff;
+   
+}
+input:focus , textarea:focus{
+    outline: 2px solid black;
+}
+
+#msg{
+    margin-top: 0.7rem;
+    height: 6rem;
+    padding : 8px ;
+    border: 2px solid black;
+    border-radius:7px ;
+    resize: none;
+}
+#submit-button{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 0.7rem;
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.dark{
+    background-color: #000;
+    color:#ffffff ;
+}
+
